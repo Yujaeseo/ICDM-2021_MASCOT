@@ -1,5 +1,5 @@
 # MASCOT
-In recent years, quantization methods have successfully accelerated the training of large DNN models by reducing the level of precision in computing operations (e.g., forward/backward passes) without sacrificing its accuracy. In this work, therefore, we attempt to apply such a quantization idea to the popular Matrix factorization (MF) methods to deal with  the growing scale of models and datasets in recommender systems.
+ In recent years, quantization methods have successfully accelerated the training of large DNN models by reducing the level of precision in computing operations (e.g., forward/backward passes) without sacrificing its accuracy. In this work, therefore, we attempt to apply such a quantization idea to the popular Matrix factorization (MF) methods to deal with  the growing scale of models and datasets in recommender systems.
 However, to our dismay, we observe that the state-of-the-art quantization methods are not effective in the training of MF models, unlike their successes in the training of DNN models. To this phenomenon, we posit that two 
 distinctive features in training MF models could explain the difference: 
 (i) training MF models is much more memory-intensive than training DNN models, 
