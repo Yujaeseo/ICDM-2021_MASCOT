@@ -14,7 +14,7 @@ OBJECTS=$(SOURCES:.cpp=.o)
 	OBJECTS=$(patsubst %.cpp,%.o,$(patsubst %.cu,%.o,$(SOURCES)))
 	DEPS= common_struct.h io_utils.h model_init.h sgd.h preprocess_utils.h sgd_kernel_128.h rmse.h precision_switching.h test_kernel.h statistics.h fixed_point_sgd_kernel_128.h fixed_point_sgd_kernel_128_cvpr.h sgd_kernel_64.h fixed_point_sgd_kernel_64.h fixed_point_sgd_kernel_64_cvpr.h
 	VPATH=
-	DATA_PATH=/home/winston/projects/new_vscodefiles/CUDA_SVD/data
+	DATA_PATH=
 
 all: $(SOURCES) $(EXECUTABLE)
 
