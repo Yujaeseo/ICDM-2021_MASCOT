@@ -6,9 +6,9 @@ distinctive features in training MF models could explain the difference:
 (i) training MF models is much more memory-intensive than training DNN models, 
 and (ii) the quantization errors across users and items in recommendation are not uniform.
 From these observations, then, 
-we develop a novel quantization framework for MF models, named as {\manager}, employing novel strategies to successfully address two aforementioned unique features in the training of MF models.
+we develop a novel quantization framework for MF models, named as MASCOT, employing novel strategies to successfully address two aforementioned unique features in the training of MF models.
 The comprehensive evaluation using four real-world datasets demonstrates that
-{\manager} improves the training performance of MF models by about 45\%, 
+MASCOT improves the training performance of MF models by about 45\%, 
 compared to the training without quantization, 
 while maintaining low model errors, %comparable to the ground truth. 
-and the strategies and implementation optimizations of {\manager} are quite effective in the training of MF models.
+and the strategies and implementation optimizations of MASCOT are quite effective in the training of MF models.
