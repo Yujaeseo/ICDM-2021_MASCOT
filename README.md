@@ -47,4 +47,22 @@ We provide pre-trained model and you can test it as follows:
   ```./test_mf -i [pre-trained model file] -y [test file] -v [mf version]```  
 
 ## Experimental results
+1. Performance comparison of MASCOT and existing methods
 <img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/Performance%20comparison.png" width="470" height="400">
+
+
+2. The error (RMSE) results of MASCOT and existing methods
+<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/RMSE%20comparison.png" width="470" height="400">
+
+
+You can produce those result using following commands : 
+  - MASCOT
+    ```./quantized_mf -i [train file] -y [test file] -o [output file] -wg 2048 -bl 128 -k 128 -l 50 -a 0.01 -d 0.1 -ug 100 -ig 100 -e 20 -s 0.05 -it 2 -v 1```
+  - MPT
+    ```./quantized_mf -i [train file] -y [test file] -o [output file] -wg 2048 -bl 128 -k 128 -l 50 -a 0.01 -d 0.1 -v 4```
+  - MuPPET
+    ```./quantized_mf -i [train file] -y [test file] -o [output file] -wg 2048 -bl 128 -k 128 -l 50 -a 0.01 -d 0.1 -s 0.05 -v 3```
+  - AFP
+    ```./quantized_mf -i [train file] -y [test file] -o [output file] -wg 2048 -bl 128 -k 128 -l 50 -a 0.01 -d 0.1 -v 2```
+    
+
