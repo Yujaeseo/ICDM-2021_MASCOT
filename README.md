@@ -56,13 +56,13 @@ We provide pre-trained model and you can test it as follows:
 
 
 You can produce those result using following commands :  
-MASCOT  
+  - MASCOT  
     ```./quantized_mf -i [train file] -y [test file] -o [output file] -wg 2048 -bl 128 -k 128 -l 50 -a 0.01 -d 0.1 -ug 100 -ig 100 -e 20 -s 0.05 -it 2 -v 1```  
-MPT  
+  - MPT  
     ```./quantized_mf -i [train file] -y [test file] -o [output file] -wg 2048 -bl 128 -k 128 -l 50 -a 0.01 -d 0.1 -v 4```  
-MuPPET  
+  - MuPPET  
     ```./quantized_mf -i [train file] -y [test file] -o [output file] -wg 2048 -bl 128 -k 128 -l 50 -a 0.01 -d 0.1 -s 0.05 -v 3```  
-AFP  
+  - AFP  
     ```./quantized_mf -i [train file] -y [test file] -o [output file] -wg 2048 -bl 128 -k 128 -l 50 -a 0.01 -d 0.1 -v 2```  
     
 
