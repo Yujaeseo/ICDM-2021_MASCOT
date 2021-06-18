@@ -47,4 +47,4 @@ We provide pre-trained model and you can test it as follows:
   ```./test_mf -i [pre-trained model file] -y [test file] -v [mf version]```  
 
 ## Experimental results
-<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/Performance%20comparison.png" width="450" height="450">
+<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/Performance%20comparison.png" width="450" height="400">
