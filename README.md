@@ -48,4 +48,4 @@ We provide pre-trained model and you can test it as follows:
 
 ## Experimental results
 
-1. 
+![Performance comparison](https://github.com/Yujaeseo/MASCOT/blob/main/Figure/Performance%20comparison.png)
