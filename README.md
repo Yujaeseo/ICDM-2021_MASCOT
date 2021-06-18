@@ -28,13 +28,15 @@ Where options are as follows:
   -v  : MF version to run (1-MASCOT, 2-AFP, 3-MUPPET, 4-MPT, 5- FP32)
   
 It is recommended to tune the number of threads using -wg options to maximize the performance.  
-We used an RTX 2070 GPU for our experiments and set the number of warps to 2,048 (k = 128), 2304 (k = 64)  
+We used an RTX 2070 GPU for our experiments and set the number of warps to 2,048 (k = 128), 2,304 (k = 64)  
 Other parameter settings are described in the paper.  
 
+## Datasets
 
-
-
-
-
+In our experiments, we use four real-world datasets
+- MovieLens 10M
+- MovieLens 25M
+- Netflix
+- Yahoo!Music
 
 
