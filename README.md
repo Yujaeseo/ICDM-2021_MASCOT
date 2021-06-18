@@ -7,11 +7,11 @@ distinctive features in training MF models could explain the difference: (i) tra
 This project is written in standard C++ and CUDA. it can be built by running Makefile in the source code directory.
 
 ## Run
-Run executable file by  
+Run executable file by:  
 ```./quantized_mf -i [train file] -y [test file] -o [output file] [options]```  
 
 
-where options are as follows    
+where options are as follows:    
 -l  : The number of epochs executed during training  
 -k  : The dimensionality of latent space  
 -b  : Regularization parameter for users and items  
