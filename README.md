@@ -7,4 +7,6 @@ distinctive features in training MF models could explain the difference: (i) tra
 This project is written in standard C++ and CUDA. it can be built by running Makefile in the source code directory.
 
 ## Run
-``` code ```
+```./quantized_mf -i [train file] -y [test file] -o [output file] [options]```
+
+
