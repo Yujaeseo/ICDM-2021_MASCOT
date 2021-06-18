@@ -11,9 +11,9 @@ Run executable file by:
   ```./quantized_mf -i [train file] -y [test file] -o [output file] [options]```  
 
 
-where options are as follows:    
+Where options are as follows:    
   > -l  : The number of epochs executed during training  
-  -k  : The dimensionality of latent space  
+  -k  : The dimensionality of latent space (64 or 128)  
   -b  : Regularization parameter for users and items  
   -a  : Initial learning rate  
   -d  : Decay factor  
@@ -25,7 +25,14 @@ where options are as follows:
   -it : Error estimate period  
   -e  : Error threshold  
   -rc : Whether to save reconstructed testset matrix  
-  -v  : MF version to run  
+  -v  : MF version to run (1-MASCOT, 2-AFP, 3-MUPPET, 4-MPT, 5- FP32)
+  
+It is recommended to tune the number of threads using -wg options to maximize the performance.  
+We used an RTX 2070 GPU for our experiments and set the number of workers to 2,048 (k = 128), 2304 (k = 64)  
+Other parameter settings are described in the paper.  
+
+
+
 
 
 
