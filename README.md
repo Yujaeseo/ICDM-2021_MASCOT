@@ -4,7 +4,7 @@ In recent years, quantization methods have successfully accelerated the training
 distinctive features in training MF models could explain the difference: (i) training MF models is much more memory-intensive than training DNN models, and (ii) the quantization errors across users and items in recommendation are not uniform. From these observations, then, we develop a novel quantization framework for MF models, named as MASCOT, employing novel strategies to successfully address two aforementioned unique features in the training of MF models. The comprehensive evaluation using four real-world datasets demonstrates that MASCOT improves the training performance of MF models by about 45%, compared to the training without quantization, while maintaining low model errors, and the strategies and implementation optimizations of MASCOT are quite effective in the training of MF models.
 
 ## Building
-This project is written in standard C++ and CUDA. it can be built by running Makefile in the source code directory.
+This project is written in standard C++ and CUDA 10.2. it can be built by running Makefile in the source code directory.
 
 ## Run
 Run executable file by:  
