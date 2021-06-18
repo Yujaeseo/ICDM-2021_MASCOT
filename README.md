@@ -1,5 +1,5 @@
 # MASCOT
-## Abstract
+## Introduction
 In recent years, quantization methods have successfully accelerated the training of large DNN models by reducing the level of precision in computing operations (e.g., forward/backward passes) without sacrificing its accuracy. In this work, therefore, we attempt to apply such a quantization idea to the popular Matrix factorization (MF) methods to deal with  the growing scale of models and datasets in recommender systems. However, to our dismay, we observe that the state-of-the-art quantization methods are not effective in the training of MF models, unlike their successes in the training of DNN models. To this phenomenon, we posit that two 
 distinctive features in training MF models could explain the difference: (i) training MF models is much more memory-intensive than training DNN models, and (ii) the quantization errors across users and items in recommendation are not uniform. From these observations, then, we develop a novel quantization framework for MF models, named as MASCOT, employing novel strategies to successfully address two aforementioned unique features in the training of MF models. The comprehensive evaluation using four real-world datasets demonstrates that MASCOT improves the training performance of MF models by about 45%, compared to the training without quantization, while maintaining low model errors, and the strategies and implementation optimizations of MASCOT are quite effective in the training of MF models.
 
@@ -33,10 +33,16 @@ Other parameter settings are described in the paper.
 
 ## Datasets
 
-In our experiments, we use four real-world datasets
-- MovieLens 10M
-- MovieLens 25M
+In our experiments, we used four real-world datasets for training and testing 
+- MovieLens
+    - 10M
+    - 25M
 - Netflix
 - Yahoo!Music
 
+## Test
+
+We provide pre-trained model and you can test it as follows:  
+
+  ```./test_mf -i [pre-trained model file] -y [test file] -v [mf version]```  
 
