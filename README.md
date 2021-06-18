@@ -12,7 +12,7 @@ Run executable file by:
 
 
 where options are as follows:    
-  -l  : The number of epochs executed during training  
+  > -l  : The number of epochs executed during training  
   -k  : The dimensionality of latent space  
   -b  : Regularization parameter for users and items  
   -a  : Initial learning rate  
