@@ -34,9 +34,8 @@ Other parameter settings are described in the paper.
 ## Datasets
 
 In our experiments, we used four real-world datasets for training and testing 
-- MovieLens
-    - 10M
-    - 25M
+- MovieLens 10M  
+- MovieLens 25M  
 - Netflix
 - Yahoo!Music
 
