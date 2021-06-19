@@ -46,7 +46,7 @@ We provide pre-trained model and you can test it as follows:
   ```./test_mf -i [pre-trained model file] -y [test file] -v [mf version]```  
 
 ## Experimental results
-1. Performance comparison of MASCOT and existing methods  
+RQ1. Does MASCOT improve the training performance of MF models more than existing quantization methods?  
 
 
 <img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/Performance%20comparison.png" width="470" height="400">
@@ -54,10 +54,19 @@ We provide pre-trained model and you can test it as follows:
 
 
 
-2. The error (RMSE) results of MASCOT and existing methods  
+RQ2. Does MASCOT provide the errors of MF models lower than existing quantization methods? 
 
 
-<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/RMSE%20comparison.png" width="470" height="400">
+<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/RMSE%20comparison.png" width="470" height="400">  
+
+
+RQ3. How effective are the strategies and optimizations of MASCOT in improving the MF model training?
+
+
+
+RQ4. How sensitive are the training performance and model error of MASCOT to its hyperparameters?  
+
+
 
 
 You can produce those result using following commands :  
