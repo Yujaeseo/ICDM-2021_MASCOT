@@ -46,11 +46,15 @@ We provide pre-trained model and you can test it as follows:
   ```./test_mf -i [pre-trained model file] -y [test file] -v [mf version]```  
 
 ## Experimental results
-1. Performance comparison of MASCOT and existing methods
+1. Performance comparison of MASCOT and existing methods  
+
+
 <img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/Performance%20comparison.png" width="470" height="400">
 
 
-2. The error (RMSE) results of MASCOT and existing methods
+2. The error (RMSE) results of MASCOT and existing methods  
+
+
 <img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/RMSE%20comparison.png" width="470" height="400">
 
 
