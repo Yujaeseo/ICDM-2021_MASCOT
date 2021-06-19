@@ -76,7 +76,7 @@ Finally, we evaluate the hyperparameter sensitivity of MASCOT and provide the be
   - Strategies of MASCOT (m-quantization, g-switching) 
 
 
-<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/strategies%20of%20mascot.png" width="470" height="400">
+<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/strategies%20of%20mascot.png" width="450" height="350">
 
 
   - Optimization technique
