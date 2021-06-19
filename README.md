@@ -71,7 +71,7 @@ We provide pre-trained model and you can test it as follows:
   - Sampling ratio, error estimate period 
 
 
-<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/hyperparameter%20sensitivity.png" width="850" height="400">  
+<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/hyperparameter%20sensitivity.png" width="850" height="380">  
 
 
   - The number of groups
