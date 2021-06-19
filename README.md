@@ -51,8 +51,11 @@ Existing quantization methods are as follows :
   - [[ICLR '18](https://arxiv.org/abs/1710.03740)] Mixed Precision Training (MPT)
   - [[ICML '20](http://proceedings.mlr.press/v119/rajagopal20a.html)] Muti-Precision Policy Enforced Training (MuPPET)
   - [[CVPR '20](https://ieeexplore.ieee.org/abstract/document/9157439)] Adaptive Fixed Point (AFP)  
+
+
 In the next experiment, we verify the effectiveness of our strategies (m-quantization, g-switching) and optimization technique through an ablation study. (RQ3)  
-Finally, we evaluate the hyperparameter sensitivity of MASCOT and provide the best values for each hyperparameter, maximizing the performance improvement while maintaining the model errors low. (RQ4)
+Finally, we evaluate the hyperparameter sensitivity of MASCOT and provide the best values for each hyperparameter, maximizing the performance improvement while maintaining the model errors low. (RQ4)  
+
 
 **RQ1. Does MASCOT improve the training performance of MF models more than existing quantization methods?**  
 
