@@ -36,7 +36,7 @@ Other parameter settings are described in the paper.
 In our experiments, we used four real-world datasets for training and testing 
 
 
-<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/datasets.png" width="400" height="320">  
+<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/datasets.png" width="600" height="280">  
 
 
 ## Test
