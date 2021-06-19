@@ -47,7 +47,7 @@ We provide pre-trained model and you can test it as follows:
 
 ## Experimental results
 
-**RQ1 & RQ2 : Comparison with Existing Quantizations**
+**RQ1 & RQ2 : Comparison with Existing Quantizations**  
 We compare MASCOT and three state-of-the-art quantization methods in terms of training time and the model error.
 Existing quantization methods are as follows
   - [[ICLR '18](https://arxiv.org/abs/1710.03740)] Mixed Precision Training (MPT)
