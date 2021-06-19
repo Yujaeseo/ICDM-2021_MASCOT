@@ -63,7 +63,7 @@ We provide pre-trained model and you can test it as follows:
 **RQ3. How effective are the strategies and optimizations of MASCOT in improving the MF model training?**  
 
 
-<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/quantization%20optimization.png" width="850" height="380">  
+<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/quantization%20optimization.png" width="850" height="350">  
 
 
 **RQ4. How sensitive are the training performance and model error of MASCOT to its hyperparameters?**  
@@ -76,7 +76,7 @@ We provide pre-trained model and you can test it as follows:
 
   - The number of groups
 
-<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/hyperparameter%20sensitivity2.png" width="850" height="380">  
+<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/hyperparameter%20sensitivity2.png" width="850" height="350">  
 
 You can produce those result using following commands :  
   - MASCOT  
