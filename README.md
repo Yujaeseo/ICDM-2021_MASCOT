@@ -50,7 +50,7 @@ We provide pre-trained model and you can test it as follows:
 **RQ1 & RQ2 : Comparison with Existing Quantizations**
 We compare MASCOT and three state-of-the-art quantization methods in terms of training time and the model error.
 Existing quantization methods are as follows
-  - [[ICLR '18] (https://opentutorials.org/module/782/6083)]Mixed Precision Training (MPT)
+  - [[ICLR '18](https://opentutorials.org/module/782/6083)]Mixed Precision Training (MPT)
   - Muti-Precision Policy Enforced Training (MuPPET)
   - Adaptive Fixed Point (AFP)
 
