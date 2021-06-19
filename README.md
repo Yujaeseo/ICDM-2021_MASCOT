@@ -68,9 +68,13 @@ RQ3. How effective are the strategies and optimizations of MASCOT in improving t
 
 RQ4. How sensitive are the training performance and model error of MASCOT to its hyperparameters?  
 
+Sampling ratio, error estimate period 
+
 
 <img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/hyperparameter%20sensitivity.png" width="850" height="400">  
 
+
+The number of groups
 
 <img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/hyperparameter%20sensitivity2.png" width="850" height="380">  
 
