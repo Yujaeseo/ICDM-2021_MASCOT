@@ -85,6 +85,7 @@ Finally, we evaluate the hyperparameter sensitivity of MASCOT and provide the be
 <img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/quantization%20optimization.png" width="850" height="350">  
 
 
+
 **RQ4. How sensitive are the training performance and model error of MASCOT to its hyperparameters?**  
 
   - Sampling ratio, error estimate period 
