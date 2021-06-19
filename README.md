@@ -63,7 +63,7 @@ RQ2. Does MASCOT provide the errors of MF models lower than existing quantizatio
 RQ3. How effective are the strategies and optimizations of MASCOT in improving the MF model training?
 
 
-<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/quantization%20optimization.png" width="850" height="400">  
+<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/quantization%20optimization.png" width="850" height="380">  
 
 
 RQ4. How sensitive are the training performance and model error of MASCOT to its hyperparameters?  
@@ -72,7 +72,7 @@ RQ4. How sensitive are the training performance and model error of MASCOT to its
 <img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/hyperparameter%20sensitivity.png" width="850" height="400">  
 
 
-<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/hyperparameter%20sensitivity2.png" width="850" height="400">  
+<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/hyperparameter%20sensitivity2.png" width="850" height="380">  
 
 You can produce those result using following commands :  
   - MASCOT  
