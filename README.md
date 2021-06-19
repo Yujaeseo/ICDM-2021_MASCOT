@@ -117,21 +117,21 @@ RQ 1~2 :
 
 
 RQ 3:  
-  - Strategies of MASCOT
+  - Strategies of MASCOT  
     - FP32  
     ```./quantized_mf -i [train file] -y [test file] -o [output file] -wg 2048 -bl 128 -k 128 -l 50 -a 0.01 -d 0.1 -v 5```  
-    - MASCOT-N1
+    - MASCOT-N1  
     ```./quantized_mf -i [train file] -y [test file] -o [output file] -wg 2048 -bl 128 -k 128 -l 50 -a 0.01 -d 0.1 -v 7```  
-    - MASCOT-N2
+    - MASCOT-N2  
     ```./quantized_mf -i [train file] -y [test file] -o [output file] -wg 2048 -bl 128 -k 128 -l 50 -a 0.01 -d 0.1 -ug 100 -ig 100 -e [values] -s 0.05 -it 4 -v 1```  
     - MASCOT  
     ```./quantized_mf -i [train file] -y [test file] -o [output file] -wg 2048 -bl 128 -k 128 -l 50 -a 0.01 -d 0.1 -ug 100 -ig 100 -e 20 -s 0.05 -it 2 -v 1```  
 
 
-  - Optimization technique
-    - MASCOT-naive
+  - Optimization technique  
+    - MASCOT-naive  
       ```./quantized_mf -i [train file] -y [test file] -o [output file] -wg 2048 -bl 128 -k 128 -l 50 -a 0.01 -d 0.1 -ug 100 -ig 100 -e 20 -s 0.05 -it 2 -v 6```
-    - MASCOT-opt
+    - MASCOT-opt  
       ```./quantized_mf -i [train file] -y [test file] -o [output file] -wg 2048 -bl 128 -k 128 -l 50 -a 0.01 -d 0.1 -ug 100 -ig 100 -e 20 -s 0.05 -it 2 -v 1```
 
 RQ 4:  
