@@ -46,7 +46,7 @@ We provide pre-trained model and you can test it as follows:
   ```./test_mf -i [pre-trained model file] -y [test file] -v [mf version]```  
 
 ## Experimental results  
-First, We compare MASCOT and three state-of-the-art quantization methods in terms of training time and the model error. (RQ1~2)
+First, We compare MASCOT and three state-of-the-art quantization methods in terms of training time and the model error. (RQ1~2)  
 Existing quantization methods are as follows :
   - [[ICLR '18](https://arxiv.org/abs/1710.03740)] Mixed Precision Training (MPT)
   - [[ICML '20](http://proceedings.mlr.press/v119/rajagopal20a.html)] Muti-Precision Policy Enforced Training (MuPPET)
