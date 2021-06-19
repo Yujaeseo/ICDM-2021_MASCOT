@@ -73,6 +73,14 @@ Finally, we evaluate the hyperparameter sensitivity of MASCOT and provide the be
 
 **RQ3. How effective are the strategies and optimizations of MASCOT in improving the MF model training?**  
 
+  - Strategies of MASCOT (m-quantization, g-switching) 
+
+
+<img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/strategies%20of%20mascot.png" width="470" height="400">
+
+
+  - Optimization technique
+
 
 <img src="https://github.com/Yujaeseo/MASCOT/blob/main/Figure/quantization%20optimization.png" width="850" height="350">  
 
