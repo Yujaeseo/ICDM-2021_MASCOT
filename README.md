@@ -34,7 +34,7 @@ Other parameter settings are described in the paper.
 ## Datasets
 
 In our experiments, we used four real-world datasets for training and testing.  
-In the case of ML10M and ML25M, we divide the training and test set 8:2 for 5-cross validation.
+In the case of ML10M and ML25M, we divide the training and test set 8:2 for 5-cross validation.  
 For Netflix and Yahoo!Music, we just use the provided training and test sets.  
 
 
