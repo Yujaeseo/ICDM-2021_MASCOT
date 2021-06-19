@@ -44,7 +44,7 @@ For Netflix([link](http://www.select.cs.cmu.edu/code/graphlab/datasets/)) and Ya
 
 ## Test
 
-We provide pre-trained model and you can test it as follows:  
+We provide pre-trained model([link](https://drive.google.com/drive/folders/1uvSHBI0jVLOEG1uiwTU-OoSKtfTL4W9L?usp=sharing)) and you can test it as follows:  
 
   ```./test_mf -i [pre-trained model file] -y [test file] -v [mf version]```  
 
