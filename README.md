@@ -103,7 +103,7 @@ Finally, we evaluate the hyperparameter sensitivity of MASCOT and provide the be
 
 You can produce those result using following commands :  
 
-RQ 1~2 :  
+RQ 1~2:  
   - MASCOT  
     ```./quantized_mf -i [train file] -y [test file] -o [output file] -wg 2048 -bl 128 -k 128 -l 50 -a 0.01 -d 0.1 -ug 100 -ig 100 -e 20 -s 0.05 -it 2 -v 1```  
   - MPT  
