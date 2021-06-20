@@ -35,7 +35,7 @@ Other parameter settings are described in the paper.
 
 In our experiments, we used four real-world datasets for training and testing.  
 In the case of ML10M([link](https://grouplens.org/datasets/movielens/10m/)) and ML25M([link](https://grouplens.org/datasets/movielens/25m/)), we divide the training and test set 8:2 for 5-cross validation.  
-For Netflix([link](http://www.select.cs.cmu.edu/code/graphlab/datasets/)) and Yahoo!Music([link](https://webscope.sandbox.yahoo.com/catalog.php?datatype=c&did=48)), we just use the provided training and test sets.  
+For Netflix([link](https://academictorrents.com/details/9b13183dc4d60676b773c9e2cd6de5e5542cee9a)) and Yahoo!Music([link](https://webscope.sandbox.yahoo.com/catalog.php?datatype=c&did=48)), we just use the provided training and test sets.  
 
 
 
