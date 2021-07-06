@@ -44,7 +44,7 @@ For Netflix([link](https://academictorrents.com/details/9b13183dc4d60676b773c9e2
 
 ## Test
 
-We provide pre-trained model and you can test it as follows:  
+We provide pre-trained model([link](https://figshare.com/s/9a54e7389d491688e0cc)) and you can test it as follows:  
 
   ```./test_mf -i [pre-trained model file] -y [test file] -v [mf version]```  
 
