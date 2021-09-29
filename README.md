@@ -8,7 +8,9 @@ This project is written in standard C++ and CUDA 10.2. it can be built by runnin
 
 ## Run
 Run executable file by:  
-  ```./quantized_mf -i [train file] -y [test file] -o [output file] [options]```  
+  ```
+  ./quantized_mf -i [train file] -y [test file] -o [output file] [options]
+  ```  
 
 
 Where options are as follows:    
@@ -34,7 +36,7 @@ Other parameter settings are described in the paper.
 ## Datasets
 
 In our experiments, we used four real-world datasets for training and testing.  
-In the case of ML10M([link](https://grouplens.org/datasets/movielens/10m/)) and ML25M([link](https://grouplens.org/datasets/movielens/25m/)), we divide the training and test set 8:2 for 5-cross validation.  
+In the case of ML10M(https://grouplens.org/datasets/movielens/10m/) and ML25M([link](https://grouplens.org/datasets/movielens/25m/)), we divide the training and test set 8:2 for 5-cross validation.  
 For Netflix([link](https://academictorrents.com/details/9b13183dc4d60676b773c9e2cd6de5e5542cee9a)) and Yahoo!Music([link](https://webscope.sandbox.yahoo.com/catalog.php?datatype=c&did=48)), we just use the provided training and test sets.  
 
 
